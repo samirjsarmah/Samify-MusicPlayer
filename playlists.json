@@ -1,0 +1,213 @@
+[
+    {
+      "folder": "A_zubeen_mode",
+      "cover": "songs/A_zubeen_mode/cover.jpg",
+      "title": "Zubeen Mode",
+      "description": "Zubeen's Collections",
+      "songs": [
+        "AAMI JEN JANTRA.mp3",
+        "Anuradha.mp3",
+        "MAYA MATHU.mp3",
+        "Mayabini Ratir Bukut.mp3"
+      ]
+    },
+    {
+      "folder": "B_kendrick_lamar",
+      "cover": "songs/B_kendrick_lamar/cover.jpg",
+      "title": "Kendrick Lamar",
+      "description": "Lamar's Songs for you",
+      "songs": [
+        "All The Stars - Kendrick Lamar.mp3",
+        "Die Hard - Kendrick Lamar.mp3",
+        "Luther - Kendrick Lamar.mp3",
+        "tv off - Kendrick Lamar.mp3"
+      ]
+    },
+    {
+      "folder": "C_drake",
+      "cover": "songs/C_drake/cover.jpg",
+      "title": "Drake",
+      "description": "This is DRAKE",
+      "songs": [
+        "Drake - God's Plan.mp3",
+        "Drake - Hotline Bling.mp3",
+        "Drake - Laugh Now Cry Later ft. Lil Durk.mp3",
+        "Drake - Toosie Slide.mp3"
+      ]
+    },
+    {
+      "folder": "D_luck_ali(mood)",
+      "cover": "songs/D_luck_ali(mood)/cover.jpg",
+      "title": "Lucky Ali",
+      "description": "Lucky Ali Hits",
+      "songs": [
+        "Na Tum Jaano Na Hum -  Lucky Ali.mp3",
+        "O Sanam - Sunoh  Lucky Ali.mp3",
+        "Safarnama - Lucky Ali.mp3"
+      ]
+    },
+    {
+      "folder": "E_papon_mood",
+      "cover": "songs/E_papon_mood/cover.jpg",
+      "title": "Angurag Papon",
+      "description": "Papon's Collections",
+      "songs": [
+        "Bulleya Sultan.mp3",
+        "Jiyein Kyun - Papon.mp3",
+        "Kyon - Papon.mp3"
+      ]
+    },
+    {
+      "folder": "F-postmalone",
+      "cover": "songs/F-postmalone/cover.jpg",
+      "title": "Post Malone",
+      "description": "Malone's Collections",
+      "songs": [
+        "Chemical - Post Malone.mp3",
+        "Psycho - Post Malone.mp3",
+        "Sunflower -Post Malone, Swae Lee.mp3"
+      ]
+    },
+    {
+      "folder": "G_beats",
+      "cover": "songs/G_beats/cover.jpg",
+      "title": "Beats",
+      "description": "Beats so fresh",
+      "songs": [
+        "Modjo - Lady (Hear Me Tonight).mp3",
+        "Peggy Gou - (It Goes Like) Nanana.mp3"
+      ]
+    },
+    {
+      "folder": "H_Chill(mood)",
+      "cover": "songs/H_Chill(mood)/cover.jpg",
+      "title": "Chill Music",
+      "description": "Relaxing & Sooting",
+      "songs": [
+        "Khalid - Better.mp3",
+        "The Chainsmokers - All We Know.mp3",
+        "yung kai - blue.mp3"
+      ]
+    },
+    {
+      "folder": "I_bollywood",
+      "cover": "songs/I_bollywood/cover.jpg",
+      "title": "Bolly Mix",
+      "description": "Popular Bolly Songs",
+      "songs": [
+        "Bheegi Si Bhaagi Si.mp3",
+        "Dil Hi Toh Hai.mp3",
+        "Phir Se Ud Chala.mp3",
+        "Qaafirana.mp3",
+        "Rang Jo Lagyo.mp3",
+        "Zara Sa.mp3"
+
+      ]
+    },
+    {
+      "folder": "I_trendingMusics",
+      "cover": "songs/I_trendingMusics/cover.jpg",
+      "title": "Latest Trends",
+      "description": "Latest Hits",
+      "songs": [
+        "American Teen.mp3",
+        "Chemical - Post Malone.mp3",
+        "Dancing In The Flames.mp3",
+        "Ed Sheeran -Sapphire.mp3",
+        "Psycho - Post Malone.mp3",
+        "Sunflower -Post Malone, Swae Lee.mp3",
+        "Young Dumb Broke.mp3"
+      ]
+    },
+    {
+      "folder": "J_Phonk",
+      "cover": "songs/J_Phonk/cover.jpg",
+      "title": "Phonk",
+      "description": "Bass. Drift. Vibey",
+      "songs": [
+        "FUNK MI CAMINO.mp3",
+        "Funk Da Montanha.mp3",
+        "ESSE CARA!.mp3",
+        "EEYUH! x Fluxxwave.mp3",
+        "ATLXS - PASSO BEM SOLTO.mp3"
+      ]
+    },
+    {
+      "folder": "K-Lofi",
+      "cover": "songs/K-Lofi/cover.jpg",
+      "title": "Lofi Music",
+      "description": "Relaxed Beats",
+      "songs": [
+        "ONE LOVE.mp3",
+        "School Rooftop.mp3",
+        "Dreaming.mp3"
+      ]
+    },
+    {
+      "folder": "L_WakeUpSid",
+      "cover": "songs/L_WakeUpSid/cover.jpg",
+      "title": "Wake Up Sid",
+      "description": "Playlist",
+      "songs": [
+        "Aaj Kal Zindagi.mp3",
+        "Iktara.mp3",
+        "Kya Karoon.mp3",
+        "Wake up Sid!.mp3"
+      ]
+    },
+    {
+      "folder": "M_Swadesh",
+      "cover": "songs/M_Swadesh/cover.jpg",
+      "title": "Swadesh",
+      "description": "Playlist",
+      "songs": [
+        "YEH JO DES HAI TERA.mp3",
+        "Yeh Tara Woh Tara.mp3",
+        "Yun Hi Chala Chal.mp3"
+      ]
+    },
+    {
+      "folder": "N_RockStar",
+      "cover": "songs/N_RockStar/cover.jpg",
+      "title": "Rockstar",
+      "description": "Playlist",
+      "songs": [
+        "Kun Faya Kun.mp3",
+        "NADAAN PARINDE.mp3",
+        "Phir Se Ud Chala.mp3",
+        "Sadda Haq Full.mp3"
+      ]
+    },
+    {
+      "folder": "O_TheBeatles",
+      "cover": "songs/O_TheBeatles/cover.jpg",
+      "title": "The Beatles",
+      "description": "Classic Rock",
+      "songs": [
+        "The Beatles - Here Comes The Sun.mp3",
+        "The Beatles - Eleanor Rigby.mp3"
+      ]
+    },
+    {
+      "folder": "P_LinkinPArk",
+      "cover": "songs/P_LinkinPArk/cover.jpg",
+      "title": "Linkin Park",
+      "description": "Nu Metal Legends",
+      "songs": [
+        "In The End.mp3",
+        "Lost.mp3",
+        "Numb.mp3"
+      ]
+    },
+    {
+      "folder": "Q_Intersteller",
+      "cover": "songs/Q_Intersteller/cover.jpg",
+      "title": "Interstellar",
+      "description": "Playlist",
+      "songs": [
+        "Cornfield Chase.mp3"
+      ]
+    }
+    
+    
+  ]
