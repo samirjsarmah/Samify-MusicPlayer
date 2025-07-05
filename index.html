@@ -1,99 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="icon" href="icon.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/utility.css">
-    <title>Samify - Web Player: Music for everyone</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="icon" href="icon.png">
+  <title>Samify - Web Player: Music for everyone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url(bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .logo img {
+      width: 500px;
+      height: 200px;
+    }
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #b3b3b3;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #1db954;
+      color: #ffffff;
+      padding: 15px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+    .invert{
+    filter: invert(1);
+}
+
+
+    .btn:hover {
+      background-color: #1ed760;
+    }
+
+    @media (max-width: 500px) {
+      .logo img {
+        width: 100px;
+        height: 100px;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .btn {
+        font-size: 1rem;
+        padding: 12px 30px;
+      }
+    }
+  </style>
 </head>
-
 <body>
-    <div class="container flex bg-black">
-        <div class="left">
-            <div class="close">
-                <img width="30" class="invert" src="img/close.svg" alt="">
-            </div>
-            <div class="home bg-grey rounded m-1 p-1" style="padding-left: 4%;">
-
-                <div class="logo"><img width="110" class="invert" src="img/logo.svg" alt="">
-                </div>
-            </div>
-
-          
-
-
-
-            <div class="library bg-grey rounded m-1 p-1">
-                <div class="heading">
-                    <img class="invert" src="img/playlist.svg" alt="">
-                    <h2>
-                        Your Library
-                    </h2>
-                </div>
-                <h2 class="playlistTitle" style="padding-left: 12px; font-size: 16px; color: #1db954;"></h2>
-                <div class="songList">
-
-                    <ul>
-
-                    </ul>
-                </div>
-
-            </div>
-
-
-        </div>
-        <div class="right bg-grey rounded">
-            <div class="header">
-                <div class="nav">
-                    <div class="hamburgerContainer">
-                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
-                        <img style="height: 35px;" src="icon.png" alt=""><p style="color:  #1db954;">Feel The Music</p>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="musicPlaylists">
-                <h1>Playlists</h1>
-                <div class="cardContainer">  </div>
-                <div class="playbar">
-                    <div class="seekbar">
-                        <div class="circle">
-
-                        </div>
-                    </div>
-                    <div class="abovebar">
-
-
-                        <div class="songinfo">
-
-                        </div>
-                        <div class="songbuttons">
-                            <img width="35" id="previous" src="img/prevsong.svg" alt="">
-                            <img width="35" id="play" src="img/play.svg" alt="">
-                            <img width="35" id="next" src="img/nextsong.svg" alt="">
-                        </div>
-                        <div class="timevol">
-
-                       
-                        <div class="songtime">
-
-                        </div>
-                        <div class="volume">
-                            <img width="25" src="img/volume.svg" alt="">
-                            <div class="range">
-                                <input type="range" name="volume" id="">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="logo">
+      <img class="invert"  src="img/logo.svg" alt="Samify Logo">
     </div>
-    <script src="js/script.js"></script>
+    <h2>Feel the Music</h2>
+    <p>Your own Music Player</p>
+    <a href="main.html" target="_blank" class="btn">Get Started</a>
+  </div>
 </body>
-
 </html>
