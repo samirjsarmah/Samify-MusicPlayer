@@ -43,24 +43,11 @@ function playMusic(track, pause = false) {
     currentSong.src = `${currFolder}/${track}`;
     currentIndex = songs.findIndex(song => song === track);
 
-    // Normalize for matching
-    const currentTrackName = decodeURIComponent(track)
-        .replace(".mp3", "")
-        .trim()
-        .toLowerCase()
-        .replace(/\s+/g, ' ');
-
-    // Remove old highlights
+    const currentTrackName = decodeURIComponent(track).replace(".mp3", "").trim().toLowerCase().replace(/\s+/g, ' ');
     document.querySelectorAll(".songList ul li").forEach(li => li.classList.remove("playing"));
 
-    // Highlight current song
     document.querySelectorAll(".songList ul li").forEach(li => {
-        const nameInList = li.querySelector(".info div").innerText
-            .replace(".mp3", "")
-            .trim()
-            .toLowerCase()
-            .replace(/\s+/g, ' ');
-
+        const nameInList = li.querySelector(".info div").innerText.replace(".mp3", "").trim().toLowerCase().replace(/\s+/g, ' ');
         if (nameInList === currentTrackName) {
             li.classList.add("playing");
         }
@@ -91,10 +78,8 @@ async function displayAlbums() {
         cardContainer.innerHTML += `
             <div data-folder="${playlist.folder}" class="card">
                 <div class="play">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
-                            stroke-linejoin="round" />
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5" stroke-linejoin="round" />
                     </svg>
                 </div>
                 <img src="${playlist.cover}" alt="">
@@ -111,10 +96,10 @@ async function displayAlbums() {
             songs = selected.songs;
             currentIndex = 0;
 
+            document.querySelector(".playlistTitle").innerText = selected.title;
             await loadSongs(songs);
             playMusic(songs[0]);
 
-            // Highlight active card
             document.querySelectorAll(".card").forEach(c => c.classList.remove("playing"));
             card.classList.add("playing");
         });
@@ -184,7 +169,7 @@ async function main() {
             playMusic(songs[currentIndex]);
         } else {
             currentIndex = 0;
-            playMusic(songs[currentIndex]); // Loop to first
+            playMusic(songs[currentIndex]);
         }
     });
 
