@@ -21,7 +21,8 @@ async function loadSongs(songList) {
             <li>
                 <img class="invert" width="34" src="img/music.svg" alt="">
                 <div class="info">
-                    <div>${song.replaceAll("%20", " ")}</div>
+                   <div>${song.replaceAll("%20", " ").replace(".mp3", "")}</div>
+
                     <div>Playing in Samify</div>
                 </div>
                 <div class="playnow">
