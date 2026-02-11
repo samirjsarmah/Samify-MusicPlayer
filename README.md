@@ -3,7 +3,7 @@
 Samify Music Player is a lightweight and responsive web-based music player that allows users to browse playlists and play songs directly in the browser. The project focuses on delivering a smooth and simple music listening experience using pure frontend technologies.
 
 It demonstrates how audio playback, playlist management, and UI interaction can be implemented using JavaScript, HTML, and CSS without heavy frameworks.
-
+ 
 
 🚀 Features
 🎧 Play, pause, and switch songs
